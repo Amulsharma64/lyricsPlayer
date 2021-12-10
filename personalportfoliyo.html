@@ -1,0 +1,133 @@
+<html>
+    <head>
+
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .about{
+                background-color: rgb(126, 187, 240);
+                font-size: medium;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding: 1%;
+            }
+            
+            body{
+            padding: 0% 10%;
+        } 
+        .footer{
+            background-color: rgb(193, 218, 240);
+            color:white;
+            text-align: center;
+            padding: 15px;            
+        }
+            .topbar{
+            background-color: cornflowerblue;            
+            color: white;      
+            padding: 15px;  
+            text-align: center;    
+        }
+        .list{
+            list-style-type:none;
+        }
+        #heading{
+            text-align: center;
+        }
+        .sidebar{
+            background-color: rgb(193, 218, 240);
+            font-size: medium;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 15px;  
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        .colRow::after{
+             content: "";
+             clear: both;
+             display: table;
+         }
+
+        [class*="col-"]{
+            float:left;            
+        }
+        @media only screen and (max-width:768px){
+        [class*="col-"]{
+            width: 100%;           
+        }
+         body{
+             padding:5%;
+         }   
+        }
+        </style>
+
+    </head>
+    <body>
+        <h1 class="topbar colRow">Resume</h1>
+        <div class="col-3 about">
+            <h4 id="heading">OBJECTIVE</h4>
+            <div> 
+            for Entry-Level Position in Software Company to utilize 
+            my strong technical expertise and academic training for betterment of my employer.
+            </div>
+            <h4  id="heading">PERSONAL INFO</h4>
+            <ul class="list">
+                <li>7982058976</li>
+                <li>sharmaamul64@gmail.com </li>
+                <li><p>https://www.linkedin.com/in/amul-sharma-999a77191</p></li>
+            </ul>
+            <h4  id="heading">STRENGTHS</h4>
+            <ol class="list">
+                <li>self-motivated</li>
+                <li>Quick Learner</li>
+                <li>Honesty and integrity</li>
+            </ol>
+            <h4  id="heading">HOBBIES</h4>
+           <ol class="list">
+               <li>Travelling</li>
+               <li>Reading</li>
+               <li>Music Listening</li>
+           </ol>
+        </div>
+        <div class="col-9 sidebar">
+            <h4>EDUCATION</h4>
+            <div>
+                <h4>Rakshapal Bahadur Management Institute, Greater Noida</h4>
+                <p>Bachelor of Computer Application 2018 - 2021</p>
+<h4>Bhartiya Adarsh Inter College Greater Noida </h4>
+<p>12th Class | UP BOARD | PCM | 2018</p>
+    <h4>Bhartiya Adarsh Inter College Greater Noida</h4>
+        <p>10th Class | UP BOARD | PCM | 2016</p>
+
+            </div>
+            <h4>CERTIFICATIONS</h4>
+            <ul>
+                <li>The Complete Core Java Development Bootcamp</li>
+                <li>Brilliant Student Award for getting second position in High school year 2015-16.</li>
+                <li>Awarded Second  prize in HR Submit  Case Study organized by RBMI College in 2019.</li>
+
+            </ul>
+            <h4>SKILLS</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C++</li>
+                <li>JAVA</li>
+
+            </ul>
+
+        </div>
+        <div class="footer"></div>
+
+    </body>
+</html>
