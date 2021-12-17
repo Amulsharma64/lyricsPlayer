@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    padding:2%;
+    background: powderblue;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns:300px 700px;
+    width: 90%;
+    margin: 20px auto;
+    min-height: 1000px;
+
+}
+.left-section{
+    display: grid;
+    justify-content:center;
+    min-width: 300px;
+    background: rgb(48, 48, 78);
+    
+
+}
+.left-content{
+    padding:1 rem;
+
+}
+.profile-details{
+
+}
+.profile-image{
+    display:block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+    overflow: hidden;
+}
+.profile-image img{
+    height: 200px;
+    width: 300px;
+    padding-right: 110px;
+    
+}
+.name{
+    font-size: 1.2 rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom:0.5;
+
+
+}
+.description{
+    font-size: 0.75;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-transform:capitalize;
+
+
+}
+.contact-item{
+    padding:1rem ;
+
+}
+.icon{
+
+}
+.skills{
+    font-size: 0.75 rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5;
+
+}
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+}
+/*CSS start for right section */
+.right-section{
+    display: grid;
+    justify-content:left;
+    min-width: 700px;
+    background-color: rgb(241, 233, 219);
+
+}
+.right-main-section{
+    padding-bottom:  2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight:700;
+    padding: 00.5rem;
+    letter-spacing: 1px;
+}
