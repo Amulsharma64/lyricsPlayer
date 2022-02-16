@@ -24,7 +24,7 @@ artist:"artist",
 },
 {
 name: "music3",
-title:"fave two",
+title:"fav two",
 artist:"artist",
 },
 {
